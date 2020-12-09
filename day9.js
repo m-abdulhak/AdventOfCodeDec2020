@@ -1,6 +1,6 @@
 const inputs = require('./inputs');
 
-const parsed_input = inputs.getDat9Input();
+const parsed_input = inputs.getDay9Input();
 
 let isNumberValid = function(nums, indx, preambleLength){
   if(indx < preambleLength) return true;

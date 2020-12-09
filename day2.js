@@ -1,6 +1,6 @@
 const inputs = require('./inputs');
 
-const parsed_input = inputs.getDat2Input();
+const parsed_input = inputs.getDay2Input();
 
 const passwords = parsed_input['passowrds'];
 const policy = parsed_input['policy'];

@@ -1,6 +1,6 @@
 const inputs = require('./inputs');
 
-const parsed_input = inputs.getDat1Input();
+const parsed_input = inputs.getDay1Input();
 
 var getMultOf2ElemAddingTo = function(input, target){
     let map = {};

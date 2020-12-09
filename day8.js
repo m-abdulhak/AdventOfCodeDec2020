@@ -1,6 +1,6 @@
 const inputs = require('./inputs');
 
-const parsed_input = inputs.getDat8Input();
+const parsed_input = inputs.getDay8Input();
 
 const cmds_original = parsed_input['cmds'];
 const params = parsed_input['params'];
