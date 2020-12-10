@@ -7770,6 +7770,114 @@ const inStr9 = `26
 92561114724522
 68173111192064`;
 
+const inStr10 = `83
+69
+170
+56
+43
+111
+117
+135
+136
+176
+154
+65
+107
+169
+141
+151
+158
+134
+108
+143
+114
+104
+49
+55
+72
+73
+144
+13
+35
+152
+98
+133
+31
+44
+150
+70
+118
+64
+39
+137
+142
+28
+130
+167
+101
+100
+120
+79
+153
+157
+89
+163
+177
+3
+1
+38
+16
+128
+18
+62
+76
+78
+17
+63
+160
+59
+175
+168
+54
+34
+22
+174
+53
+25
+129
+90
+42
+119
+92
+173
+4
+166
+19
+2
+121
+7
+71
+99
+66
+46
+124
+86
+127
+159
+12
+91
+140
+52
+80
+45
+33
+9
+8
+77
+147
+32
+95`;
+
 var getDay1Input = () => {
     return inStr1.split('\n').map(s => parseInt(s));
 }
@@ -7884,7 +7992,11 @@ var getDay9Input = () => {
     return inStr9.split('\n').map(s => parseInt(s));
 }
 
-// console.log(getDay3Input());
+var getDay10Input = () => {
+    return inStr10.split('\n').map(s => parseInt(s));
+}
+
+// console.log(getDay10Input());
 // console.log("===============");
 
 exports.getDay1Input = getDay1Input;
@@ -7896,3 +8008,4 @@ exports.getDay6Input = getDay6Input;
 exports.getDay7Input = getDay7Input;
 exports.getDay8Input = getDay8Input;
 exports.getDay9Input = getDay9Input;
+exports.getDay10Input = getDay10Input;
